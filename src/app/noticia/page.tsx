@@ -30,14 +30,14 @@ export default function NoticiaPage() {
                 Os 10 modelos de carros mais visados para roubo e furto no Brasil em 2024
               </h1>
               <p className="text-xl text-slate-500 mb-8 leading-relaxed italic">
-                Relatorio atualizado da Confederacao Nacional de Seguros aponta crescimento em roubos de modelos SUV. Confira se o seu veiculo esta na lista.
+                Relatório atualizado da Confederação Nacional de Seguros aponta crescimento em roubos de modelos SUV. Confira se o seu veículo está na lista.
               </p>
               
               <div className="flex flex-wrap items-center justify-between gap-6 border-y border-gray-100 py-6">
                 <div className="flex items-center gap-4 text-sm">
                   <div className="w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold text-xs uppercase">EP</div>
                   <div>
-                    <p className="font-bold text-[#001A3F]">Redacao eProtecao</p>
+                    <p className="font-bold text-[#001A3F]">Redação eProteção</p>
                     <p className="text-slate-400 text-xs flex items-center gap-2">
                        <Calendar size={12} /> 05 de Março, 2024 • <Clock size={12} /> 6 min de leitura
                     </p>
@@ -62,7 +62,7 @@ export default function NoticiaPage() {
               </figcaption>
             </figure>
 
-            {/* CORPO DO TEXTO (Aqui voce foca na tipografia limpa) */}
+            {/* CORPO DO TEXTO */}
             <section className="prose prose-lg max-w-none text-slate-700 leading-relaxed space-y-8">
               <p className="font-medium text-lg text-[#001A3F]">
                 O cenário da segurança automotiva no Brasil vem sofrendo mutações significativas. O que antes era focado apenas em veículos populares, agora abrange uma vasta gama de SUVs e carros de luxo.
@@ -72,7 +72,7 @@ export default function NoticiaPage() {
                 De acordo com especialistas em segurança da <strong>eProteção</strong>, a alta demanda por peças no mercado paralelo e a falta de rastreadores modernos são os principais motivadores. Muitas vezes, o proprietário só percebe a vulnerabilidade quando já é tarde demais.
               </p>
               
-              {/* BANNER DE CTA NO MEIO DO TEXTO (Isso é ótimo para conversão) */}
+              {/* BANNER DE CTA NO MEIO DO TEXTO */}
               <div className="bg-[#001A3F] p-8 my-12 rounded-3xl text-white relative overflow-hidden group">
                  <div className="relative z-10">
                    <h4 className="text-2xl font-black mb-2 uppercase">Evite o Prejuízo!</h4>
@@ -122,3 +122,14 @@ export default function NoticiaPage() {
                        <div className="w-20 h-20 bg-gray-100 rounded-xl overflow-hidden shrink-0 shadow-sm">
                           <img src={`https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=200&index=${i}`} className="w-full h-full object-cover transition group-hover:scale-110" />
                        </div>
+                    </div>
+                 ))}
+              </div>
+            </div>
+          </aside>
+        </div>
+      </article>
+      <Footer />
+    </main>
+  );
+}
