@@ -28,39 +28,6 @@ export default function Home() {
   const linkDigicar = "https://www.digicar.org.br";
 
   return (
-<<<<<<< HEAD
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/meu-logo.png"  // Troque por sua própria imagem de logo
-          alt="Logo do Meu Projeto"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            Bem-vindo à minha plataforma de proteção veicular
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Conheça mais sobre como escolher a melhor proteção para seu veículo e assine agora.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="/assine"  // Troque para o link correto de assinatura
-          >
-            Assinar Proteção
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="/documentacao"  // Link para a documentação ou guia
-          >
-            Documentação
-          </a>
-=======
     <main className="min-h-screen bg-white">
       <Header />
 
@@ -84,7 +51,6 @@ export default function Home() {
               <h3 className="text-4xl font-black italic tracking-tighter mb-8 uppercase leading-tight italic uppercase italic">SIMULE SUA <br/>PROTECAO COM A <br/><span className="text-red-600 decoration-8 decoration-white underline-offset-4 underline">DIGICAR</span></h3>
               <a href={linkDigicar} target="_blank" className="w-full py-7 bg-red-600 rounded-[2rem] flex items-center justify-center font-black uppercase text-[11px] tracking-widest shadow-2xl hover:bg-white hover:text-[#001A3F] transition-all">Cotar Agora →</a>
            </div>
->>>>>>> cf05213 (Atualização)
         </div>
       </section>
 
