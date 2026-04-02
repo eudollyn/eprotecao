@@ -63,43 +63,20 @@ export default function Footer() {
 
           <div className="md:col-span-5 flex flex-col items-center">
             <h4 className="font-black mb-8 uppercase text-xs tracking-widest text-red-600 italic text-center">
-              Conecte-se com a gente
+              Podcast e redes oficiais
             </h4>
 
             <div className="grid grid-cols-4 gap-4">
-              <Link
-                href={siteConfig.social.youtube}
-                target="_blank"
-                className="bg-white p-4 rounded-2xl hover:scale-110 transition shadow-xl flex items-center justify-center"
-                aria-label="YouTube"
-              >
+              <Link href={siteConfig.social.youtube} target="_blank" className="bg-white p-4 rounded-2xl hover:scale-110 transition shadow-xl flex items-center justify-center" aria-label="YouTube">
                 <YoutubeIcon />
               </Link>
-
-              <Link
-                href={siteConfig.social.instagram}
-                target="_blank"
-                className="bg-white p-4 rounded-2xl hover:scale-110 transition shadow-xl flex items-center justify-center"
-                aria-label="Instagram"
-              >
+              <Link href={siteConfig.social.instagram} target="_blank" className="bg-white p-4 rounded-2xl hover:scale-110 transition shadow-xl flex items-center justify-center" aria-label="Instagram">
                 <InstagramIcon />
               </Link>
-
-              <Link
-                href={siteConfig.social.spotify}
-                target="_blank"
-                className="bg-white p-4 rounded-2xl hover:scale-110 transition shadow-xl flex items-center justify-center"
-                aria-label="Spotify"
-              >
+              <Link href={siteConfig.social.spotify} target="_blank" className="bg-white p-4 rounded-2xl hover:scale-110 transition shadow-xl flex items-center justify-center" aria-label="Spotify">
                 <SpotifyIcon />
               </Link>
-
-              <Link
-                href={siteConfig.social.facebook}
-                target="_blank"
-                className="bg-white p-4 rounded-2xl hover:scale-110 transition shadow-xl flex items-center justify-center"
-                aria-label="Facebook"
-              >
+              <Link href={siteConfig.social.facebook} target="_blank" className="bg-white p-4 rounded-2xl hover:scale-110 transition shadow-xl flex items-center justify-center" aria-label="Facebook">
                 <FacebookIcon />
               </Link>
             </div>
@@ -112,20 +89,17 @@ export default function Footer() {
             <Link href="/politicas#pagamento" className="hover:text-red-600 transition">
               Pagamento & Devolução
             </Link>
-            <Link
-              href="/politicas#privacidade"
-              className="hover:text-red-600 transition underline decoration-red-600 underline-offset-4"
-            >
+            <Link href="/politicas#privacidade" className="hover:text-red-600 transition underline decoration-red-600 underline-offset-4">
               Privacidade LGPD
             </Link>
           </div>
         </div>
 
         <p className="text-center mt-12 text-[9px] font-black text-gray-800 tracking-[0.25em] md:tracking-[0.4em] uppercase leading-loose">
-          BW GESTORA DE SERVICOS LTDA - ME • CNPJ 47.499.372/0001-78 • Belo Horizonte MG
+          RGS SERVICOS LTDA • CNPJ 19.545.954/0001-08 • Belo Horizonte MG
           <br />
           <span className="text-red-600 italic">
-            © 2026 EPROTEÇÃO • CONEXÃO DIRETA DIGICAR
+            © 2026 E-PROTEÇÃO NETWORK • PODCAST E CONTEÚDO AUTOMOTIVO
           </span>
         </p>
       </div>

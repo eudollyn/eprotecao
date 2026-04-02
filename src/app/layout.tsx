@@ -2,10 +2,11 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import MobileSplash from "@/components/MobileSplash";
 
 export const metadata: Metadata = {
   title: "eProteção",
-  description: "Portal do podcast eProteção em parceria com a Digicar",
+  description: "Podcast, notícias e conteúdo automotivo",
 };
 
 export default function RootLayout({
@@ -16,6 +17,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body className="bg-white text-slate-900">
+        <MobileSplash />
         <Header />
         {children}
         <Footer />
